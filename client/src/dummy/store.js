@@ -5,47 +5,47 @@ let user = createSlice({
     name : 'user',
     initialState : [
         {
-            name : 'stud11',
-            email : 'stud11@codinghub.co.kr',
+            name : '학생11',
+            email : 'stu11@codinghub.co.kr',
             role : '/stud'
         },
         { 
-            name : 'stud22', 
+            name : '학생22', 
             email : 'stud22@codinghub.co.kr', 
             role : '/stud'
         },
         {
-            name : 'stud33', 
+            name : '학생33', 
             email : 'stud33@codinghub.co.kr', 
             role : '/stud'
         },
         {
-            name : 'teach11',
+            name : '평가자11',
             email : 'teach11@codinghub.co.kr',
             role : '/teach'
         },
         { 
-            name : 'teach22', 
+            name : '평가자22', 
             email : 'teach22@codinghub.co.kr', 
             role : '/teach'
         },
         {
-            name : 'teach33', 
+            name : '평가자33', 
             email : 'teach33@codinghub.co.kr', 
             role : '/teach'
         },
         {
-            name : 'admin11',
+            name : '관리자1',
             email : 'admin11@codinghub.co.kr',
             role : '/admin'
         },
         { 
-            name : 'admin22', 
+            name : '관리자2', 
             email : 'admin22@codinghub.co.kr', 
             role : '/admin'
         },
         {
-            name : 'admin33', 
+            name : '관리자3', 
             email : 'admin33@codinghub.co.kr', 
             role : '/admin'
         }
@@ -69,8 +69,8 @@ let room = createSlice({
     initialState : [
         {
             uuid : 1,
-            roomName : 'stud11 님 사전 역량 평가',
-            targetUser : 'stud11',
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
             startTime : '2023/02/04 14:00',
             endTime : '2023/02/04 15:00',
             createdAt : '2023/02/01 10:30',
@@ -78,8 +78,8 @@ let room = createSlice({
         },
         {
             uuid : 2,
-            roomName : 'stud11 님 중간 역량 평가',
-            targetUser : 'stud11',
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
             startTime : '2023/03/04 14:00',
             endTime : '2023/03/04 15:00',
             createdAt : '2023/02/01 10:30',
@@ -89,6 +89,330 @@ let room = createSlice({
             uuid : 3,
             roomName : 'stud22 님 중간 역량 평가',
             targetUser : 'stud22',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : 1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : 1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        }
+    ]
+})
+
+let teachRoom = createSlice({
+    name : 'teachRoom',
+    initialState : [
+        {
+            uuid : 1,
+            roomName : '학생11 님 사전 역량 평가',
+            targetUser : '학생11',
+            teacher : '평가자11',
+            startTime : '2023/02/04 14:00',
+            endTime : '2023/02/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 2,
+            roomName : '학생11 님 중간 역량 평가',
+            targetUser : '학생11',
+            teacher : 'teach22',
+            startTime : '2023/03/04 14:00',
+            endTime : '2023/03/04 15:00',
+            createdAt : '2023/02/01 10:30',
+            progress : -1
+        },
+        {
+            uuid : 3,
+            roomName : '학생22 님 중간 역량 평가',
+            targetUser : '학생22',
+            teacher : '평가자11',
             startTime : '2023/03/04 14:00',
             endTime : '2023/03/04 15:00',
             createdAt : '2023/02/01 10:30',
@@ -103,7 +427,8 @@ export default configureStore( {
     reducer : {
         user : user.reducer,
         loginUser : loginUser.reducer,
-        room : room.reducer
+        room : room.reducer,
+        teachRoom : teachRoom.reducer
     }
 } )
 
